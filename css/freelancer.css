@@ -4,11 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
-body {
+/* body {
   font-family: 'Lato';
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -16,7 +16,7 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
-}
+} */
 
 hr.star-light,
 hr.star-dark {
@@ -103,7 +103,7 @@ section h2 {
   line-height: 3.1rem;
 }
 
-#mainNav {
+/* #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
@@ -170,7 +170,7 @@ section h2 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
+} */
 
 header.masthead {
   padding-top: calc(6rem + 72px);

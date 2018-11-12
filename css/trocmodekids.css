@@ -84,13 +84,13 @@ a:hover {
   background-color: #006d9c !important;
 }
 
-.navbar {
+/* .navbar {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-}
+} */
 
-.navbarline{
+/* .navbarline{
   border-bottom: #006d9c 2px solid;
 }
 
@@ -102,9 +102,85 @@ a:hover {
   .navbarline{
   border-bottom: none;
 }
-}
-.navbar-nav{
+} */
+
+/* .navbar-nav{
   margin-bottom: -50px;
+} */
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Helvetica Neue';
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+}
+
+#mainNav .navbar-claim {
+  margin-bottom: -2rem;
+}
+
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+  letter-spacing: 0.0625rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #006d9c;
+  margin-bottom: -60px;
+  font-size: 1rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #f18a6f;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #f18a6f;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #f18a6f;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  }
+  #mainNav .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 0;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #f18a6f;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #f18a6f;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
 }
 
 .question:hover{
@@ -122,17 +198,19 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background:url(http://127.0.0.1:8000/images/Icone_etiquette_BLEU.png) center no-repeat;
-  background-size: 80% auto ;
+  background-color: #006d9c;
+  /* background:url(img/Icone_etiquette_BLEU.png) center no-repeat;
+  background-size: 80% auto ; */
   /* background-clip: padding-box; */
   border: none;
 }
 
 .button:hover {
-  background-image:url(http://127.0.0.1:8000/images/Icone_etiquette_ORANGE.png);
+  /* background-image:url(img/Icone_etiquette_ORANGE.png); */
+   background-color:#f18a6f;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .button {
   background-size: 95% auto ;
   }
@@ -148,7 +226,7 @@ a:hover {
   .button {
   background-size: 100% auto ;
   }
-}
+} */
 
 /* HOME PAGE */
 
@@ -187,17 +265,17 @@ a:hover {
   }
 }
 
-.carousel-image1{
-  background-image:url(http://127.0.0.1:8000/images/Je_donne.jpg);
+/* .carousel-image1{
+  background-image:url(img/Je_donne.jpg);
 }
 
 .carousel-image2{
-  background-image:url(http://127.0.0.1:8000/images/Je_trouve.jpg);
+  background-image:url(img/Je_trouve.jpg);
 }
 
 .carousel-image3{
-  background-image :url(http://127.0.0.1:8000/images/Je_participe.jpg);
-}
+  background-image :url(img/Je_participe.jpg);
+} */
 
 .logo{
   z-index: 1;
@@ -226,20 +304,20 @@ a:hover {
   border-color: #f18a6f;
 }
 
-.block-image1{
-  background-image :url(http://127.0.0.1:8000/images/Gaspillage_vestimentaire.png);
+/* .block-image1{
+  background-image :url(img/Gaspillage_vestimentaire.png);
   background-size: 100% auto;
 }
 
 .block-image2{
-  background-image :url(http://127.0.0.1:8000/images/Lamelles_jeans.jpg);
+  background-image :url(img/Lamelles_jeans.jpg);
   background-size: 100% auto;
 }
 
 .block-image3{
-  background-image :url(http://127.0.0.1:8000/images/ourlet.jpeg);
+  background-image :url(img/images/ourlet.jpeg);
   background-size: 100% auto;
-}
+} */
 
 .block-image:hover{
   background-image :none;
@@ -344,13 +422,13 @@ a:hover {
 /* JE DONNE PAGE */
 
 .jedonne-image{
-  background-image:url(http://127.0.0.1:8000/images/Je_donne.jpg);
+  background-image:url(img/Je_donne.jpg);
 }
 
 /* CONCEPT PAGE */
 
 .concept-image{
-  background-image:url(http://127.0.0.1:8000/images/Cercle.png);
+  background-image:url(img/Cercle.png);
   background-size: 100% auto ;
   background-repeat: no-repeat;
   height: 700px;
@@ -359,7 +437,7 @@ a:hover {
 /* JE TROUVE PAGE */
 
 .jetrouve-image{
-  background-image:url(http://127.0.0.1:8000/images/Je_trouve.jpg);
+  background-image:url(img/Je_trouve.jpg);
   background-position: center top;
 }
 
