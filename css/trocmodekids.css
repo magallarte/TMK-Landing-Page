@@ -84,28 +84,12 @@ a:hover {
   background-color: #006d9c !important;
 }
 
-/* .navbar {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-} */
-
-/* .navbarline{
-  border-bottom: #006d9c 2px solid;
+.bg-primary {
+  background-color:#006d9c !important;
 }
 
-.navbarline-right{
-  padding-bottom: 9px;
-}
-
-@media (max-width: 768px) {
-  .navbarline{
-  border-bottom: none;
-}
-} */
-
-/* .navbar-nav{
-  margin-bottom: -50px;
+/* section {
+  padding: 2rem 0;
 } */
 
 #mainNav {
@@ -408,8 +392,8 @@ a:hover {
 
 .anchor{
   display: block;
-  height: 110px; /*same height as nav bar*/
-  margin-top: -110px; /*same height nav barr*/
+  height: 120px; /*same height as nav bar*/
+  margin-top: -120px; /*same height nav barr*/
   visibility: hidden;
 }
 
@@ -490,9 +474,10 @@ a:hover {
 /* Animation */
 
 
-
-/* JE PARTICIPE */
-
-.jeparticipe-image{
-  background-image:url(http://127.0.0.1:8000/images/Je_participe.jpg);
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #636679;
+  color: #fff;
 }
+
