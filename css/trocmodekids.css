@@ -73,6 +73,10 @@ h5, .h5 {
   color:#636679;
 }
 
+.font-weight-bold {
+  font-weight: 400 !important;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -93,9 +97,9 @@ a:hover , a:active{
   background-color:#006d9c !important;
 }
 
-section{
+/* section{
   padding-top: 2rem;
-}
+} */
 
 /* Nav bar */
 
@@ -107,9 +111,9 @@ section{
   font-family: 'Helvetica Neue';
 }
 
-#mainNav .navbar-brand {
+/* #mainNav .navbar-brand {
   color: #fff;
-}
+} */
 
 #mainNav .navbar-claim {
   /* margin-bottom: -2rem; */
@@ -124,7 +128,7 @@ section{
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #006d9c;
   margin-bottom: -60px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -139,33 +143,50 @@ section{
   color: #f18a6f;
 }
 
+/* test */
+ #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #f18a6f;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #f18a6f;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+/* test */
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
 }
 
+.logo{
+  height:5rem;
+  }
+
 @media (min-width: 992px) {
-  #mainNav {
+  /* #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-  }
-  #mainNav .navbar-brand {
+  } */
+  /* #mainNav .navbar-brand {
     font-size: 2em;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
-  }
-
-  #mainNav .navbar-claim {
+  } */
+  /* #mainNav .navbar-claim {
     font-size: 1.25rem;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
-  }
-  #mainNav .navbar-nav {
+  } */
+  /* #mainNav .navbar-nav {
     margin-top: 0;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  } */
+  /* #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
     background: #f18a6f;
   }
@@ -179,6 +200,32 @@ section{
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+  } */
+  /* .logo{
+  height:7rem;
+  } */
+}
+
+@media (max-width: 992px) {
+  /* #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  } */
+  /* #mainNav .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  } */
+  #mainNav .navbar-claim {
+    font-size: 0.8rem;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+    padding-top: 0.5rem;
+  }
+  .logo{
+  height:4rem;
   }
 }
 
@@ -187,8 +234,17 @@ section{
     font-size: 0.75rem;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 377px) {
+  .logo{
+  height:3rem;
+  }
+  #mainNav .navbar-claim {
+    font-size: 0.6rem;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
   }
 }
 
@@ -250,31 +306,44 @@ section{
   -o-background-size: cover;
   background-size: cover; */
   background-size: 100% auto;
-  height: 500px;
+  height: 400px;
 }
 
 @media (max-width: 992px) {
   .carousel-item{
-  height: 450px;
+  height: 350px;
   }
+
+  #carousel h3{
+ font-size: 1.1rem;
+ }
 }
 
 @media (max-width: 768px) {
   .carousel-item {
-  height: 350px;
+  height: 300px;
   }
+    #carousel h3{
+ font-size: 1rem;
+ }
 }
 
 @media (max-width: 600px) {
   .carousel-item {
-  height: 300px;
+  height: 250px;
   }
+    #carousel h3{
+ font-size: 0.9rem;
+ }
 }
 
 @media (max-width: 480px) {
   .carousel-item {
   height: 200px;
   }
+    #carousel h3{
+ font-size: 0.8rem;
+ }
 }
 
 /* .carousel-image1{
@@ -289,12 +358,7 @@ section{
   background-image :url(img/Je_participe.jpg);
 } */
 
-.logo{
-  z-index: 1;
-  position: absolute;
-  text-align: left;
-  padding-left: 60rem;
-}
+
 
 .block{
   display: flex;
