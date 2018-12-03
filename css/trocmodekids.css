@@ -425,7 +425,7 @@ a:hover , a:active{
 
 .block-title{
   background-image :none;
-  color:white;
+  color:#f18a6f;
   font-size: 1.25rem;
   border-top-left-radius : 0.25rem;
   border-top-right-radius : 0.25rem;
@@ -441,7 +441,7 @@ a:hover , a:active{
 
 .block-image-title{
   background-image :none;
-  color:white;
+  color:#006d9c;
   font-size: 1.25rem;
 }
 
@@ -525,23 +525,24 @@ a:hover , a:active{
 
 .anchor{
   display: block;
-  height: 126px; /*same height as nav bar*/
-  margin-top: -126px; /*same height nav barr*/
+  height: 126px;
+  margin-top: -126px;
   visibility: hidden;
 }
 
-/* @media (max-width: 397px) {
+@media (max-width: 397px) {
 .anchor{
-  height: 149px; 
-  margin-top: -149px;
+  height: 100px; 
+  margin-top: -100px;
+}
 }
 
 @media (max-width: 322px) {
 .anchor{
-  height: 182px;
-  margin-top: -182px; 
+  height: 96px;
+  margin-top: -96px; 
 }
-} */
+}
 
 /* Timeline */
 
@@ -736,6 +737,17 @@ transition: all 0.7s ease-in-out;
   .evolutive-heigth{
   height: 550px;
   }
+}
+
+/* Partners Section */
+
+.partners{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding: 2rem;
+  height:10rem;
 }
 
 /* Footer */
