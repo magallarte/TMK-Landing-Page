@@ -277,6 +277,21 @@ a:hover , a:active{
    background-color:#f18a6f;
 }
 
+.button-orange {
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f18a6f;
+  /* background:url(img/Icone_etiquette_BLEU.png) center no-repeat;
+  background-size: 80% auto ; */
+  /* background-clip: padding-box; */
+  border: none;
+}
+
+
 /* @media (max-width: 992px) {
   .button {
   background-size: 95% auto ;
