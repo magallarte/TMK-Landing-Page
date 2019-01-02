@@ -76,13 +76,18 @@
     <!-- Contact Section -->
     <section id="Contact">
         <div class="container">
-            <h3 class="text-center orange mb-0">Votre avis nous intéresse ! <br> Restons en contact !</h3>
-            <br>
+            <h3 class="text-center orange mb-0">Votre avis nous intéresse !</h3>
             <br>
             <div class="col-lg-10 mx-auto">
-                <p>En attendant le lancement de nos services en 2019, donnez votre avis et laissez nous vos coordonnées pour que nous vous informions
-                    du démarrage et des nombreux projets de Troc&Mode kids</p>
-                <p>A très bientôt</p>
+                <p> En attendant le lancement de nos services en 2019, donnez votre avis...</p>
+                <p> Cochez les activités qui vous intéressent et répondez à quelques questions.</p>
+
+                    <div class="thumbnail text-center">
+                        <img class="yellow-label" src="img/Icone_etiquette_JAUNE.png" alt="Etiquette Jaune">
+                        <div class="caption">
+                            <h3 class="blue">10 BOUTONS<br> OFFERTS !</h3>
+                        </div>
+                    </div>
             </div>
             <div class="row">
                 <div class="col-lg-10 mx-auto">
@@ -92,82 +97,149 @@
                             <br>
                             <h3>Je suis intéressé(e) par :</h3>
                             <br>
-                            <div class="row justify-content-center">
+                            <div class="justify-content-center">
+                                <div>
+                                    <input type="checkbox" aria-label="Le don" name="entry.502344122" id="interest_1" value="Le don">
+                                    <label for="interest_1" class="h3 font-weight-bold">Le don</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" aria-label="Le troc / L'achat" name="entry.502344122" id="interest_2" value="Le troc / L'achat">
+                                    <label for="interest_2" class="h3 font-weight-bold">Le troc / L'achat</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" aria-label="L'atelier et les cours de couture" name="entry.502344122" id="interest_3" value="L'atelier et les cours de couture">
+                                    <label for="interest_3" class="h3 font-weight-bold">L'atelier et les cours de couture</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" aria-label="Les informations sur le recyclage et surcyclage" name="entry.502344122" id="interest_4"
+                                        value="Les informations sur le recyclage et surcyclage">
+                                    <label for="interest_4" class="h3 font-weight-bold">Les informations sur le recyclage et surcyclage</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" aria-label="Le bénévolat" name="entry.502344122" id="interest_5" value="Le bénévolat">
+                                    <label for="interest_5" class="h3 font-weight-bold">Le bénévolat</label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
                                 <div class="col-md-10 text-left">
-                                    <div>
-                                        <input type="checkbox" aria-label="Le don" name="entry.502344122" id="interest1" value="Le don">
-                                        <label for="interest1" class="h3 font-weight-bold"> Le don</label>
-                                    </div>
-                                    <div>
+                                    <div id="madiv_1">
                                         <div>
-                                            <label for="question1">Un système de collecte sur les parking des écoles vous permettrait -il de donner plus facilement ?</label>
+                                            <label for="question1"><b>Un système de collecte sur les parkings des écoles vous permettrait -il de donner plus facilement ?</b></label>
                                         </div>
                                         <div>
                                             <div><input type="radio" aria-label="Oui tout à fait" name="entry.837221882" id="question1" value="Oui tout à fait"> Oui tout à fait</div>
                                             <div><input type="radio" aria-label="Oui plutôt" name="entry.837221882" id="question1" value="Oui plutôt"> Oui plutôt</div>
                                             <div><input type="radio" aria-label="Non pas spécialement" name="entry.837221882" id="question1" value="Non pas spécialement"> Non pas spécialement</div>
-                                        </div> 
-                                    </div>
-                                    <br>
-                                    <div>
-                                        <input type="checkbox" aria-label="Le troc / L'achat" name="entry.502344122" id="interest2" value="Le troc / L'achat">
-                                        <label for="interest2" class="h3 font-weight-bold"> Le troc / L'achat</label>
-                                    </div>
-                                    <div>
+                                        </div>
+                                        <br>
                                         <div>
-                                            <label for="question2">La possibilité d’échanger sur une plateforme en ligne (ayant un large choix) est-il un aspect qui vous intéresse et vous
-                                            inciterez à acheter ?</label>
+                                            <label for="question2"><b>Quel créneau horaire préfèreriez-vous pour donner vos sacs de dons ?</b></label>
                                         </div>
                                         <div>
-                                            <div><input type="radio" aria-label="OUI tout à fait" name="entry.1242869387" id="question2" value="Oui tout à fait"> OUI tout à fait</div>
-                                            <div><input type="radio" aria-label="OUI plutôt" name="entry.1242869387" id="question2" value="Oui plutôt"> OUI plutôt</div>
-                                            <div><input type="radio" aria-label="NON je préfère les vendre" name="entry.1242869387" id="question2" value="NON je préfère les vendre"> NON je préfère les vendre</div>
-                                            <div><input type="radio" aria-label="NON je préfère les donner à mon cercle familial / amical" name="entry.1242869387" id="question2" value="NON je préfère les donner à mon cercle familial / amical">  NON je préfère les donner à mon cercle familial / amical</div>
-                                            <div><input type="radio" aria-label="NON mais je donne quand même pour des raisons écologiques et sociales notamment" name="entry.1242869387" id="question2" value="NON mais je donne quand même pour des raisons écologiques et sociales notamment">  NON mais je donne quand même pour des raisons écologiques et sociales notamment</div>
+                                            <div>
+                                                <input type="radio" aria-label="Le matin, entre 8H00 et 9H00" name="entry.????" id="question2" value="Le matin, entre 8H30 et 9H30"> Le matin, entre 8H30 et 9H30</div>
+                                            <div>
+                                                <input type="radio" aria-label="Le soir, entre 17H00 et 18H00" name="entry.???" id="question2" value="Le soir, entre 17H00 et 18H00"> Le soir, entre 17H00 et 18H00</div>
                                         </div>
                                     </div>
                                     <br>
-                                    <div>
+                                    <div id="madiv_2">
                                         <div>
-                                            <label for="question3">Si le projet vous intéresse (tournées de collectes dans les écoles et contrepartie en points troc), à quelle fréquence seriez-vous
-                                            prêt à donner / troquer des vêtements ?</label>
+                                            <label for="question3"><b>La possibilité de donner et d’acheter, à prix préférentiel, des vêtements de seconde main sur une plateforme en ligne (ayant
+                                            un large choix) est-il un aspect qui vous intéresse et vous inciterez à acheter ?</b></label>
                                         </div>
                                         <div>
-                                            <div><input type="radio" aria-label="une fois par mois environ" name="entry.924745276" id="question3" value="une fois par mois environ"> une fois par mois environ</div>
-                                            <div><input type="radio" aria-label="tous les 3 mois" name="entry.924745276" id="question3" value="tous les 3 mois"> tous les 3 mois</div>
-                                            <div><input type="radio" aria-label="tous les 6 mois" name="entry.924745276" id="question3" value="tous les 6 mois"> tous les 6 mois</div>
-                                            <div><input type="radio" aria-label="une fois par an" name="entry.924745276" id="question3" value="une fois par an"> une fois par an</div>
-                                            <div><input type="radio" aria-label="Je ne sais pas" name="entry.924745276" id="question3" value="Je ne sais pas"> Je ne sais pas</div>
-                                            <div><input type="radio" aria-label="Le projet ne m'intéresse pas" name="entry.924745276" id="question3" value="Le projet ne m'intéresse pas"> Le projet ne m'intéresse pas</div>
+                                            <div><input type="radio" aria-label="OUI tout à fait" name="entry.1242869387" id="question3" value="Oui tout à fait"> OUI tout à fait</div>
+                                            <div><input type="radio" aria-label="OUI plutôt" name="entry.1242869387" id="question3" value="Oui plutôt"> OUI plutôt</div>
+                                            <div><input type="radio" aria-label="NON je préfère les vendre" name="entry.1242869387" id="question3" value="NON je préfère les vendre"> NON je préfère les vendre</div>
+                                            <div><input type="radio" aria-label="NON je préfère les donner à mon cercle familial / amical" name="entry.1242869387" id="question3" value="NON je préfère les donner à mon cercle familial / amical">  NON je préfère les donner à mon cercle familial / amical</div>
+                                            <div><input type="radio" aria-label="NON mais je donne quand même pour des raisons écologiques et sociales notamment" name="entry.1242869387" id="question3" value="NON mais je donne quand même pour des raisons écologiques et sociales notamment">  NON mais je donne quand même pour des raisons écologiques et sociales notamment</div>
+                                        </div>
+                                        <br>
+                                        <div>
+                                            <label for="question4"><b>Si le projet vous intéresse (dons sur les parkings des écoles, contrepartie en % de réduction, achats en ligne et livraisons
+                                            sur les parkings des écoles), à quelle fréquence seriez-vous prêt à donner / acheter des vêtements ?</b></label>
+                                        </div>
+                                        <div>
+                                            <div><input type="radio" aria-label="une fois par mois environ" name="entry.924745276" id="question4" value="une fois par mois environ"> une fois par mois environ</div>
+                                            <div><input type="radio" aria-label="tous les 3 mois" name="entry.924745276" id="question4" value="tous les 3 mois"> tous les 3 mois</div>
+                                            <div><input type="radio" aria-label="tous les 6 mois" name="entry.924745276" id="question4" value="tous les 6 mois"> tous les 6 mois</div>
+                                            <div><input type="radio" aria-label="une fois par an" name="entry.924745276" id="question4" value="une fois par an"> une fois par an</div>
+                                            <div><input type="radio" aria-label="Je ne sais pas" name="entry.924745276" id="question4" value="Je ne sais pas"> Je ne sais pas</div>
+                                            <div><input type="radio" aria-label="Le projet ne m'intéresse pas" name="entry.924745276" id="question4" value="Le projet ne m'intéresse pas"> Le projet ne m'intéresse pas</div>
+                                        </div>
+                                        <br>
+                                        <div>
+                                            <label for="question5"><b>Combien de vêtements pourriez-vous donner à cette fréquence ?</b></label>
+                                        </div>
+                                        <div>
+                                            <div><input type="radio" aria-label="moins de 10" name="entry.174220292" id="question5" value="moins de 10"> moins de 10</div>
+                                            <div><input type="radio" aria-label="entre 10 et 20" name="entry.174220292" id="question5" value="entre 10 et 20"> entre 10 et 20</div>
+                                            <div><input type="radio" aria-label="plus de 20" name="entry.174220292" id="question5" value="plus de 20"> plus de 20</div>
+                                            <div><input type="radio" aria-label="Je ne sais pas" name="entry.174220292" id="question5" value="Je ne sais pas"> Je ne sais pas</div>
+                                        </div>
                                     </div>
                                     <br>
-                                    <div>
+                                    <div id="madiv_3">
                                         <div>
-                                            <label for="question4">Combien de vêtements pourriez-vous donner à cette fréquence?</label>
+                                            <label for="question6"><b>La possiblité de venir à l'atelier, une ou deux après-midis par semaine, pour "coudre" entre passionnés vous intéresse-t'elle
+                                            ?</b></label>
                                         </div>
                                         <div>
-                                            <div><input type="radio" aria-label="moins de 10" name="entry.174220292" id="question4" value="moins de 10"> moins de 10</div>
-                                            <div><input type="radio" aria-label="entre 10 et 20" name="entry.174220292" id="question4" value="entre 10 et 20"> entre 10 et 20</div>
-                                            <div><input type="radio" aria-label="plus de 20" name="entry.174220292" id="question4" value="plus de 20"> plus de 20</div>
-                                            <div><input type="radio" aria-label="Je ne sais pas" name="entry.174220292" id="question4" value="Je ne sais pas"> Je ne sais pas</div>
+                                            <div>
+                                                <input type="radio" aria-label="Oui" name="entry.????" id="question6" value="Oui"> Oui</div>
+                                            <div>
+                                                <input type="radio" aria-label="Non" name="entry.????" id="question6" value="Non"> Non</div>
+                                        </div>
+                                        <br>
+                                        <div>
+                                            <label for="question7"><b>A quelle fréquence aimeriez vous prendre des cours de couture ?</b></label>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <input type="radio" aria-label="Une fois par semaine" name="entry.????" id="question7" value="Une fois par semaine"> Une fois par semaine</div>
+                                            <div>
+                                                <input type="radio" aria-label="Une fois par mois" name="entry.???" id="question7" value="Une fois par mois"> Une fois par mois</div>
+                                            <div>
+                                                <input type="radio" aria-label="Occasionnellement" name="entry.???" id="question7" value="Occasionnellement"> Occasionnellement</div>
                                         </div>
                                     </div>
                                     <br>
-                                    <div>
-                                        <input type="checkbox" aria-label="L'atelier et les cours de couture" name="entry.502344122" id="interest3" value="L'atelier et les cours de couture">
-                                        <label for="interest3" class="h3 font-weight-bold">L'atelier et les cours de couture</label>
+                                    <div id="madiv_4">
+                                        <div>
+                                            <label for="question8"><b>A quelle fréquence aimeriez vous recevoir des infos sur le recyclage et le surcyclage des vêtements ?</b></label>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <input type="radio" aria-label="Une fois par semaine" name="entry.????" id="question8" value="Une fois par semaine"> Une fois par semaine</div>
+                                            <div>
+                                                <input type="radio" aria-label="Une fois par mois" name="entry.????" id="question8" value="Une fois par mois"> Une fois par mois</div>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <input type="checkbox" aria-label="Les informations sur le recyclage et surcyclage" name="entry.502344122" id="interest4"
-                                            value="Les informations sur le recyclage et surcyclage">
-                                        <label for="interest4" class="h3 font-weight-bold">Les informations sur le recyclage et surcyclage</label>
-                                    </div>
-                                    <div>
-                                        <input type="checkbox" aria-label="Le bénévolat" name="entry.502344122" id="interest5" value="Le bénévolat">
-                                        <label for="interest5" class="h3 font-weight-bold">Le bénévolat</label>
+                                    <br>
+                                    <div id="madiv_5">
+                                        <div>
+                                            <label for="question9"><b>A quelle fréquence pourriez-vous venir aider l'association pour trier, réparer ou créer des vêtements ?</b></label>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <input type="radio" aria-label="Une fois par semaine" name="entry.????" id="question9" value="Une fois par semaine"> Une fois par semaine</div>
+                                            <div>
+                                                <input type="radio" aria-label="Une fois par mois" name="entry.????" id="question9" value="Une fois par mois"> Une fois par mois</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-lg-10 mx-auto">
+                            <h3 class="text-center orange mb-0">Restons en contact !</h3>
+                            <br>
+                            <p>Laissez nous vos coordonnées pour que nous vous informions du démarrage de Troc&Mode kids.
+                                <br>
+                                <br> Vous recevrez dans quelques mois un message pour vous inscrire.
+                                <br> Votre cagnotte sera alors créditée de 10 boutons !</p>
+                            <p>Merci et à bientôt</p>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -368,6 +440,94 @@
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
 
+    <script language="javascript">
+
+        $(document).ready(function () {
+
+            $("#madiv_1").hide();
+            $("#madiv_2").hide();
+            $("#madiv_3").hide();
+            $("#madiv_4").hide();
+            $("#madiv_5").hide();
+
+            $("#interest_1").change(function () {
+
+                if ($("interest_1").attr('checked', true)) {
+
+                    $("#madiv_1").show();
+
+                }
+                else {
+
+                    $("#madiv_1").hide();
+
+                }
+
+            });
+
+            $("#interest_2").change(function () {
+
+                if ($("interest_2").attr('checked', true)) {
+
+                    $("#madiv_2").show();
+
+                }
+                else {
+
+                    $("#madiv_2").hide();
+
+                }
+
+            });
+
+            $("#interest_3").change(function () {
+
+                if ($("interest_3").attr('checked', true)) {
+
+                    $("#madiv_3").show();
+
+                }
+                else {
+
+                    $("#madiv_3").hide();
+
+                }
+
+            });
+
+            $("#interest_4").change(function () {
+
+                if ($("interest_4").attr('checked', true)) {
+
+                    $("#madiv_4").show();
+
+                }
+                else {
+
+                    $("#madiv_4").hide();
+
+                }
+
+            });
+
+            $("#interest_5").change(function () {
+
+                if ($("interest_5").attr('checked', true)) {
+
+                    $("#madiv_5").show();
+
+                }
+                else {
+
+                    $("#madiv_5").hide();
+
+                }
+
+            });
+
+        });
+
+    </script>
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />

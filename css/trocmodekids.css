@@ -291,25 +291,72 @@ a:hover , a:active{
   border: none;
 }
 
+.thumbnail {
+    position: relative;
+}
 
-/* @media (max-width: 992px) {
-  .button {
-  background-size: 95% auto ;
+.caption {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+
+.label{
+  width: 70%;
+}
+
+@media (max-width: 992px) {
+  .label {
+  width:90% ;
   }
 }
 
 @media (max-width: 767px) {
-  .button {
-  background-size: 70% auto ;
+  .label {
+  width:50% ;
   }
 }
 
 @media (max-width: 480px) {
-  .button {
-  background-size: 100% auto ;
+  .label {
+  width:60% ;
   }
-} */
+}
 
+@media (max-width: 350px) {
+  .label {
+  width:100% ;
+  }
+}
+
+.yellow-label{
+  width: 30%;
+}
+
+@media (max-width: 992px) {
+  .yellow-label {
+  width:40% ;
+  }
+}
+
+@media (max-width: 767px) {
+  .yellow-label {
+  width:50% ;
+  }
+}
+
+@media (max-width: 480px) {
+  .yellow-label {
+  width:70% ;
+  }
+}
+
+@media (max-width: 350px) {
+  .yellow-label {
+  width:100% ;
+  }
+}
 
 /* HOME PAGE */
 
