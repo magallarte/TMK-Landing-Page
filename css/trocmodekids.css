@@ -348,13 +348,13 @@ a:hover , a:active{
 
 @media (max-width: 480px) {
   .yellow-label {
-  width:70% ;
+  width:60% ;
   }
 }
 
 @media (max-width: 350px) {
   .yellow-label {
-  width:100% ;
+  width:70% ;
   }
 }
 
