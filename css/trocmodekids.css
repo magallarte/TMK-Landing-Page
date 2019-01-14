@@ -69,7 +69,7 @@ p, .p {
 }
 
 .blue {
-  color: #006d9c;
+  color: #016482;
 }
 
 .orange {
@@ -97,11 +97,11 @@ a:hover , a:active{
 }
 
 .bg-blue {
-  background-color: #006d9c !important;
+  background-color: #016482 !important;
 }
 
 .bg-primary {
-  background-color:#006d9c !important;
+  background-color:#016482 !important;
 }
 
 /* section{
@@ -114,8 +114,8 @@ a:hover , a:active{
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
-  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  font-family: 'Montserrat';
 }
 
 /* #mainNav .navbar-brand {
@@ -272,7 +272,7 @@ a:hover , a:active{
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: #006d9c;
+  background-color: #016482;
   /* background:url(img/Icone_etiquette_BLEU.png) center no-repeat;
   background-size: 80% auto ; */
   /* background-clip: padding-box; */
@@ -440,7 +440,7 @@ a:hover , a:active{
 
 .block-plain{
   background-color: #016482;
-  border-color: #006d9c;
+  border-color: #016482;
 }
 
 /* @media (max-width: 480px) {
@@ -450,8 +450,8 @@ a:hover , a:active{
   color:white;
   }
     .block-plain:nth-child(2n){
-  background-color:  #006d9c;
-  border-color:  #006d9c;
+  background-color:  #016482;
+  border-color:  #016482;
   color:white;
   }
 } */
@@ -510,7 +510,7 @@ a:hover , a:active{
 
 .block-image-title{
   background-image :none;
-  color:#006d9c;
+  color:#016482;
   font-size: 1.25rem;
 }
 
