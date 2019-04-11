@@ -1,7 +1,7 @@
 /* GLOBAL */
 
 body {
-  padding-top: 135px;
+  /* padding-top: 135px; */
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   /* font-family: Roboto, "Helvetica Neue", Arial, sans-serif; */
@@ -118,8 +118,8 @@ a:hover , a:active{
 
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
   font-weight: 500;
   font-family: 'Montserrat';
 }
@@ -145,12 +145,38 @@ a:hover , a:active{
   font-size: 0.9rem;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link .navbarCurrent {
-  color: #f18a6f;
-  font-weight: bold;
-  margin-bottom: -60px;
-  font-size: 0.9rem;
+@media (max-width: 600px) {
+ #mainNav .navbar-nav li.nav-item a.nav-link {
+    font-size: 0.75rem;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
 }
+
+@media (max-width: 445px) {
+  #mainNav .navbar-nav li.nav-item a.nav-link {
+    font-size: 0.6rem;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+}
+
+@media (max-width: 385px) {
+  #mainNav .navbar-nav li.nav-item a.nav-link{
+    font-size: 0.5rem;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+}
+
+@media (max-width: 330px) {
+  #mainNav .navbar-nav li.nav-item a.nav-link {
+    font-size: 0.4rem;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+}
+
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #f18a6f;
@@ -259,7 +285,15 @@ a:hover , a:active{
   }
 }
 
-@media (max-width: 377px) {
+@media (max-width: 445px) {
+  #mainNav .navbar-claim {
+    font-size: 0.6rem;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+}
+
+@media (max-width: 385px) {
   .logo{
   height:3rem;
   }
@@ -270,9 +304,18 @@ a:hover , a:active{
   }
 }
 
+@media (max-width: 330px) {
+  #mainNav .navbar-claim {
+    font-size: 0.4rem;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+}
+
 .dropdown-menu, .dropdown-item{
   color:#636679;
 }
+
 
 /* Général */
 
@@ -398,7 +441,7 @@ a:hover , a:active{
 
 @media (max-width: 992px) {
   .carousel-item{
-  height: 350px;
+  height: 450px;
   }
 
   #carousel h3{
@@ -408,7 +451,7 @@ a:hover , a:active{
 
 @media (max-width: 768px) {
   .carousel-item {
-  height: 300px;
+  height: 400px;
   }
     #carousel h3{
  font-size: 1rem;
@@ -417,7 +460,7 @@ a:hover , a:active{
 
 @media (max-width: 600px) {
   .carousel-item {
-  height: 250px;
+  height: 350px;
   }
     #carousel h3{
  font-size: 0.9rem;
@@ -426,21 +469,11 @@ a:hover , a:active{
 
 @media (max-width: 480px) {
   .carousel-item {
-  height: 200px;
+  height: 300px;
   }
     #carousel h3{
  font-size: 0.8rem;
  }
-}
-
-.carousel-image1{
-  background-image:url(img/Je_donne.jpg);
-}
-.carousel-image2{
-  background-image:url(img/Je_donne.jpg);
-}
-.carousel-image3{
- background-image:url(img/Je_donne.jpg);
 }
 
 /* Blocks */
@@ -477,21 +510,6 @@ a:hover , a:active{
   background-color: #f18a6f;
   border-color: #f18a6f;
 }
-
-/* .block-image1{
-  background-image :url(img/Gaspillage_vestimentaire.png);
-  background-size: 100% auto;
-}
-
-.block-image2{
-  background-image :url(img/Lamelles_jeans.jpg);
-  background-size: 100% auto;
-}
-
-.block-image3{
-  background-image :url(img/images/ourlet.jpeg);
-  background-size: 100% auto;
-} */
 
 .block-image:hover, .block-image:active{
   background-image :none;
@@ -566,6 +584,51 @@ a:hover , a:active{
   color:white;
 }
 
+/* CORE PAGE */
+
+.content {
+    padding-top: 120px; /* height of header + navbar*/
+}
+
+    
+.navbar {
+    top: 54px;
+} 
+
+.topline {
+    height: 60px;
+}
+
+@media (max-width: 450px) {
+    
+  .content {
+      padding-top: 10px; /* height of header + navbar*/
+  } 
+}
+
+
+@media (max-width: 768px) {
+    
+    .topline-message {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+  .content {
+      padding-top: 130px; /* height of header + navbar*/
+  }
+
+      
+  .navbar {
+      top: 74px;
+  } 
+
+  .topline {
+      height: 80px;
+  }
+}
 
 .page-image{
   background: no-repeat center center scroll;
@@ -597,9 +660,8 @@ a:hover , a:active{
   }
 }
 
-/* CORE PAGE */
 
-.page-title{
+/* .page-title{
   position: absolute;
   right: 15%;
   top:150px;
@@ -608,9 +670,9 @@ a:hover , a:active{
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-}
+} */
 
-.anchor{
+/* .anchor{
   display: block;
   height: 126px;
   margin-top: -126px;
@@ -629,7 +691,7 @@ a:hover , a:active{
   height: 96px;
   margin-top: -96px; 
 }
-}
+} */
 
 /* Timeline */
 
@@ -720,9 +782,7 @@ transition: all 0.7s ease-in-out;
 
 /* JE DONNE PAGE */
 
-.jedonne-image{
-  background-image:url(img/Je_donne.jpg);
-}
+
 
 /* CONCEPT PAGE */
 
@@ -733,12 +793,8 @@ transition: all 0.7s ease-in-out;
   height: 750px;
 }
 
-/* JE TROUVE PAGE */
+/* J'ACHETE PAGE */
 
-.jetrouve-image{
-  background-image:url(img/Je_trouve.jpg);
-  background-position: center top;
-}
 
 .pola {
   position: relative;
@@ -929,6 +985,21 @@ transition: all 0.7s ease-in-out;
   }
 }
 
+/* CONTACT PAGE */
+
+
+@media (max-width: 575px) {
+#Contact .container {
+  padding-top: 80px;
+}
+}
+
+@media (max-width: 322px) {
+#Contact .container {
+  padding-top: 50px;
+}
+}
+
 /* Partners Section */
 
 .partners{
@@ -950,9 +1021,9 @@ transition: all 0.7s ease-in-out;
 }
 
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  width: 50px;
+  /* width: 40px; */
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
