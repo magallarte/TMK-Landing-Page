@@ -614,6 +614,13 @@ a:hover , a:active{
     }
 }
 
+@media (max-width: 400px) {
+    
+    .topline-message {
+        font-size: 0.5rem;
+    }
+}
+
 @media (max-width: 1200px) {
     
   .content {
